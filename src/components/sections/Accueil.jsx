@@ -15,7 +15,8 @@ export default function Accueil() {
               Découvrez l'approche <span className="font-semibold text-[#1B2A6B]">"Learning by Doing"</span> d'English A Must. 
               Des cours d'anglais modernes et efficaces pour tous les niveaux.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            {/* CORRECTION ICI : Ajout de 'relative z-10' pour passer au-dessus de l'image remontée */}
+            <div className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a href="#contact" className="bg-[#1B2A6B] hover:bg-[#C0392B] text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 Commencer
               </a>
